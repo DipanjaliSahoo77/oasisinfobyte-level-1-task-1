@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://ik.imagekit.io/fhl0b0nvw/Zomato_Logo.jpg?" class="image_logo shadow home_page" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto pr-5">
+                <a class="nav-link active nav_let home_page" href="#">
+                    Home
+                    <span class="sr-only">(current)</span>
+
+                </a>
+                <a class="nav-link nav_let home_page" href="#">Menu</a>
+                <a class="nav-link nav_let home_page" href="#">What's New</a>
+                <a class="nav-link nav_let home_page" href="#">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 order-2 image-bg shadow d-md-none d-xl-block d-sm-none">
+                <img src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?" class="home-img" id="mainImage" />
+            </div>
+            <div class="col-xl-6  col-md-12 order-2  d-xl-none mb-5 mt-5">
+                <img src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?" class="small-styl" />
+            </div>
+            <div class="col-xl-6 col-md-12 order-1">
+                <h class="home_head">Zomato</h>
+                <br /><br />
+                <p class="pl-5 home-para">Explore endless flavors and unforgettable dining experiences with <span class="para-span">Zomato</span>, your ultimate food companion.</p>
+                <div class="ml-5 home_page mt-5 mb-0">
+
+                    <button class="but-styl">Learn More</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-12 pl-5">
+                <div class="d-flex flex-row">
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-food-cartoon-illustration_23-2150695347.jpg?" class="food-styl home_page" onclick="changeImage('https://img.freepik.com/free-vector/hand-drawn-food-cartoon-illustration_23-2150695347.jpg')" />
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-burger-cartoon-illustration_23-2150625897.jpg?" class="food-styl home_page" onclick="changeImage('https://img.freepik.com/free-vector/hand-drawn-burger-cartoon-illustration_23-2150625897.jpg')" />
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-potato-cartoon-illustration_23-2150625921.jpg?" class="food-styl home_page" onclick="changeImage('https://img.freepik.com/free-vector/hand-drawn-potato-cartoon-illustration_23-2150625921.jpg')" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function changeImage(newImage) {
+            var mainImage = document.getElementById("mainImage");
+            mainImage.src = newImage;
+        }
+    </script>
+</body>
+
+</html>

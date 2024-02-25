@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image_logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.nav_let {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.home-img {
+    transform: rotate(1deg);
+    border-radius: 150px;
+    height: 500px;
+    width: 600px;
+}
+
+.image-bg {
+    background-color: #db162a;
+    padding: 50px;
+    border-top-left-radius: 150px;
+    transform: rotate(20deg);
+    border-bottom-left-radius: 150px;
+    height: 600px;
+
+}
+
+.home_head {
+    color: #db162a;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.home-para {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.para-span {
+    color: #db162a;
+}
+
+.but-styl {
+    background-image: linear-gradient(to right, #db162a, #eb6774, #e8a9b0);
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.food-styl {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.home_page:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+.small-styl {
+    height: 400px;
+    width: 400px;
+}
